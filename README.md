@@ -17,7 +17,7 @@ All the games seem to be action games, and I really like the lightsaber fights, 
 <img width="1466" height="1134" alt="image" src="https://github.com/user-attachments/assets/d615b755-a6a9-473f-a5d8-9617aefa87c5" />
 
 
-Elijah
+
 
 ## W2
 
