@@ -53,7 +53,9 @@ Notes from results of Zhengfan Yang, Yaokun Wan, and Haoyi Zhang: All three ment
 
 1. No they don't, since the writer only have to create new scriptable objects to design new dialog and their replies.
 2. There will be huge amounts of new scriptable objects created when the dialog number increase. Also, a dialog can only have 4 replies total.
-3. After writing methods in scripts, the nodes in visual scripting isn't updated, so that when searching for that new method when clicking right mouse button nothing appears. When regenerating nodes, the methods will be considered into the visual scripting thing and you'd be able to search and use them in the graph. 
+3. After writing methods in scripts, the nodes in visual scripting isn't updated, so that when searching for that new method when clicking right mouse button nothing appears. When regenerating nodes, the methods will be considered into the visual scripting thing and you'd be able to search and use them in the graph.
+
+Extra Credit: Added Images for each choice.
 
 <img width="2082" height="801" alt="image" src="https://github.com/user-attachments/assets/d0becd06-b709-46f5-ac62-974f2716c1db" />
 
