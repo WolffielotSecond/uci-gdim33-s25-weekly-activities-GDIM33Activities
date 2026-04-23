@@ -8,11 +8,13 @@ namespace W4Activity
     {
         [SerializeField] private TMP_Text _text;
         [SerializeField] private Button _button;
+        [SerializeField] private GameObject characterIMG;
 
         public void SetupButton (PlayerReplyW4 reply)
         {
             _text.text = reply.line;
-            
+            characterIMG.GetComponent<SetNewImage>().SetDesiredImage(reply.portrait);
+
             _button.onClick.AddListener(delegate
             {
                 DialogueAdvancerW4._Instance.ChooseDialogue(reply.nextNode);

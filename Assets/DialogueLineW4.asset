@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: DialogueLineW4
+  m_EditorClassIdentifier: 
+  Line: Who do you want to supermarket in anime games
+  ReplyOptions:
+  - line: Carlotta from Wuwa
+    portrait: {fileID: 21300000, guid: fe8629c6b9b865f49a2fc8cf3d7fa19f, type: 3}
+    nextNode: {fileID: 11400000, guid: 3996f759c701dee498e001a1ae2c2a6e, type: 2}
+  - line: Sparkle from HSR
+    portrait: {fileID: 21300000, guid: e3a7e191d6ece5f48aa6658fd68f4a27, type: 3}
+    nextNode: {fileID: 11400000, guid: 41d6122c007a17347867a3c9a2ba1084, type: 2}
+  - line: Mint from NTE
+    portrait: {fileID: 21300000, guid: 78644df59582c364d92f2436dbbae8d1, type: 3}
+    nextNode: {fileID: 11400000, guid: af8c1225f44550b48ad4dd26b94d25f1, type: 2}

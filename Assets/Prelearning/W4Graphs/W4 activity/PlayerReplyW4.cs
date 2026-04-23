@@ -11,6 +11,7 @@ namespace W4Activity
         // Variables
         //---------------------------------------------------------------------
         [Inspectable] public string line;
+        [Inspectable] public Sprite portrait;
         [Inspectable] public DialogueNodeW4 nextNode;
     }
 }
