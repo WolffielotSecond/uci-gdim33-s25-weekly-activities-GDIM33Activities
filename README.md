@@ -34,6 +34,25 @@ All the games seem to be action games, and I really like the lightsaber fights, 
 
 4. It is relavent. There will be two game states, one is explore/ action or whatever you call it, basically the player can move around the scene. The other state should be UI only, like when interacted with terminals, the game pauses and the player can take their time to choose the items. The cursor will also show up.
 
+## W4
+
+### Activity 1
+
+1.
+Currently, the player can move inside the scene and open unlocked doors to switch to new scenes. The player can also kite the zombie but not attacking it in the combat scene.
+  
+My Goal is to test if the players are able to be used to the inverse in input when switching camera locations. (some camera locations will have a normal wsad input, other places where the camera is facing the player will have inversed input.
+
+2.
+Playtest team mamber: Allen Gu, Haoyi Zhang, Zhengfan Yang, Yaokun Wan, Pengcheng Qi(me)
+
+3.
+Notes from results of Zhengfan Yang, Yaokun Wan, and Haoyi Zhang: All three mentioned that the only issue is still the abrupt change in camera and input direction. Especially for the horizontal inputs a and d, it's hard to adapt to the change in directions. For the other aspects, there are no negative feedbacks.
+
+### Activity 2
+
+
+
 
 
 
