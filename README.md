@@ -59,6 +59,36 @@ Extra Credit: Added Images for each choice.
 
 <img width="2082" height="801" alt="image" src="https://github.com/user-attachments/assets/d0becd06-b709-46f5-ac62-974f2716c1db" />
 
+## W4
+
+### Activity 1
+
+Step1: Use Animation to make the key unlock animation
+
+​	Substep1: Add a new animation
+
+​	Substep2: Drag the position and rotation in the timeline
+
+​	Substep3: Add keyframes
+
+Step2: Create an animator for this key
+
+​	Substep1: Add New Animator
+
+​	Substep2: Add an empty state as default and the new animation made with a trigger transition
+
+Step3: use script to make the key animation play when unlocking
+
+​	Substep1: add the method for playing the animation
+
+​	Substep2: make the key become visible -> play animation -> key become invisible
+
+​	Substep3: call the method on the point when unlocking the door
+
+### Activity 2
+
+Step 1 and 2 completed, but didn't make the door unlock mechanics.
+
 
 
 
