@@ -59,7 +59,7 @@ Extra Credit: Added Images for each choice.
 
 <img width="2082" height="801" alt="image" src="https://github.com/user-attachments/assets/d0becd06-b709-46f5-ac62-974f2716c1db" />
 
-## W4
+## W5
 
 ### Activity 1
 
@@ -89,7 +89,21 @@ Step3: use script to make the key animation play when unlocking
 
 Step 1 and 2 completed, but didn't make the door unlock mechanics.
 
+## W6
 
+### Activity 1
+
+1. The build contains logic for picking up objects, but they can only be opened via debug keys yet.
+2. [link to itch page](https://wolffielotsecond.itch.io/gdim33-vertical-slice-demo-02)
+3. playtest goals: See how people think about the effectiveness of the UI and animations.
+4. Playtest Notes: Player thinks the animation is okay. Only feedback is still on the transitions between controlls when camera positions change.
+
+### Activity 2
+
+1. All of the color values are between 0f and 1f, making the result always smaller or equal to the original
+2. More translucent, since the values are also between 0 and 1, making the result smaller than the original
+3. The vertex data from the mesh, since the UV coordinates are stored in them
+4. No. I've already done this in Unreal before
 
 
 
