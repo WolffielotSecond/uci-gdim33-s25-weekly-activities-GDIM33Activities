@@ -105,5 +105,13 @@ Step 1 and 2 completed, but didn't make the door unlock mechanics.
 3. The vertex data from the mesh, since the UV coordinates are stored in them
 4. No. I've already done this in Unreal before
 
+## W7
 
+1. The data came from the mesh, where each vertex in the mesh stores color attributes.
+2. GPU interpolates the vertex color data across the surface during rendering.
+3. Vertex color is only stored per vertex, but textures stores color per pixel. It's useful for AO baking, LOD coloration, and vertex painting masks, or rendering objects in the distance to save performance.
+4. Some dark parts of the model have a incorrect normal/ inverted normal.
+5. We can use it to check for stretching or seams, this can validate the mapping of textures.
+6. The light direction and surface normal are pointing toward to each other, thus producing a negative dot product instead of positive as it should be.
+7. Additive blend mode makes the noise texture visible instead of transparant.
 
