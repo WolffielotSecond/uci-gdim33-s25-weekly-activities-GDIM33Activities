@@ -115,3 +115,20 @@ Step 1 and 2 completed, but didn't make the door unlock mechanics.
 6. The light direction and surface normal are pointing toward to each other, thus producing a negative dot product instead of positive as it should be.
 7. Additive blend mode makes the noise texture visible instead of transparant.
 
+## W8
+
+### Activity 1
+
+1. A bug on interacting the door and the camera stucks on it
+2. Interaction prompt should add the name of the key to press
+3. Make the doors more visible on the second floor
+4. Add VFX to pick-up-ables to notify the player
+5. Bad walking orientation
+6. Zombie hit feedback (damage reaction)
+
+### Activity 2
+
+1. The normal Shiba gets drawn first in the StencilWritePass. That pass uses Compare Function = Always and Pass = Replace, so wherever the real Shiba appears, it writes stencil value 1. Then the enlarged Outline pass uses Compare Function = Not Equal with value 1, meaning it only draws where the stencil is not already 1. So the outline cannot draw over the original Shiba; it only appears around the outside. Fail/ZFail stay Keep, so failed pixels do not change the stencil.
+2. The Shiba is being drawn almost twice, once in the StencilWritePass before opaques, and again in the regular opaque pass. The stencil pass is mainly there to write stencil information, but because Override Mode is None, it still draws the Shiba normally with its material while also writing to the stencil. That is why the Frame Debugger shows very similar Shiba draws happening twice.
+3. The cel shader splits the material into 2 sections, the lit and the shadow. To combine them, we should use add (since black regions are literally 0 and when we add things there, it will replace all the dark regions.)
+4. The Outline Renderer Feature’s Layer Mask is set to only draw objects on the Outline layer. So when the Shiba is moved onto the Outline layer, the outline pass includes it. When it is moved back to Default, the outline pass ignores it.
