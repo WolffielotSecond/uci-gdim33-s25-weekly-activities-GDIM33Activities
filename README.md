@@ -132,3 +132,28 @@ Step 1 and 2 completed, but didn't make the door unlock mechanics.
 2. The Shiba is being drawn almost twice, once in the StencilWritePass before opaques, and again in the regular opaque pass. The stencil pass is mainly there to write stencil information, but because Override Mode is None, it still draws the Shiba normally with its material while also writing to the stencil. That is why the Frame Debugger shows very similar Shiba draws happening twice.
 3. The cel shader splits the material into 2 sections, the lit and the shadow. To combine them, we should use add (since black regions are literally 0 and when we add things there, it will replace all the dark regions.)
 4. The Outline Renderer Feature’s Layer Mask is set to only draw objects on the Outline layer. So when the Shiba is moved onto the Outline layer, the outline pass includes it. When it is moved back to Default, the outline pass ignores it.
+
+## W9
+
+### Activity 1
+
+Warthunder
+
+<img width="1098" height="838" alt="image" src="https://github.com/user-attachments/assets/9a204513-3301-41ff-a476-710b327f1458" />
+
+To make War Thunder'internal structure s X-ray and mouse-over outline effects in Unity, we can split the vehicle model into an opaque internal structure  and a semi-transparent surface skin, rendered later with Transparent queue so that the former naturally shows through the translucent hull. For the highlight outline, we can detect the part with raycast and draw its inflated mesh in a final pass after all transparent objects, using a queue like Overlay or injecting through a CommandBuffer at the AfterRenderingTransparents event to keep the contour sharp on top.
+
+### Activity 2
+
+[Commit](https://github.com/WolffielotSecond/VerticalSlice/commit/9f015b299c3d3255db5a5f90dfec766175540351)
+
+Fire Texture
+
+<img width="2558" height="1303" alt="image" src="https://github.com/user-attachments/assets/c8623368-c791-4c4c-a752-2355db2b29fc" />
+
+Wood Texture
+
+<img width="2559" height="1363" alt="image" src="https://github.com/user-attachments/assets/f1f3e678-149d-4d73-a782-82e217c23aa5" />
+
+I've improved the interaction system of the game to make it more clear.
+
