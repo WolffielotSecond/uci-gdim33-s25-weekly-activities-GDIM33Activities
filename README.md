@@ -177,4 +177,6 @@ After that, we can break each system into smaller tasks. For example, instead of
 
 ### Activity 3
 
+[commit](https://github.com/WolffielotSecond/VerticalSlice/commit/34853c4d9bf61bd916c66023c17e63178b2b1645)
+
 Made a new feature of player screen turning red when the player is on low health.
