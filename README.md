@@ -157,3 +157,24 @@ Wood Texture
 
 I've improved the interaction system of the game to make it more clear.
 
+## W10
+
+### Activity 1
+
+Goals: To test if my game has clear guidance than before. To test if I don't have to comment on anything for the player to find the key and the correct door to open with them.
+
+[Itch Build](https://wolffielotsecond.itch.io/gdim33-vertical-slice-demo-05)
+
+What's different from Milestone 2: New rooms, pickup-able items, keys and unlock mechanics, game complete mechanics.
+
+Playtest Notes: Player can't find which key to do certain actions (shoot and aim), and there is no model for certain stuff (which I didn't realize it yet and that's not a very useful feedback).
+
+### Activity 2
+
+Before we start coding, using a bubble map and task breakdown is really helpful for us. A bubble map helps us see the game as different systems, like the player, enemies, UI, items, levels, dialogue, and game rules. It also shows how these systems connect to each other, so we can understand what needs to be built before we actually start making it.
+
+After that, we can break each system into smaller tasks. For example, instead of only saying “make combat,” we can break it down into player attack, enemy health, damage feedback, sound effects, and UI changes. This makes the project feel clearer and less overwhelming. Planning also helps us understand the scope of our game. Sometimes an idea sounds simple, but after making a plan, we realize it needs many systems. So planning helps us control the scale of the project, avoid adding too much, and focus on the most important parts first.
+
+### Activity 3
+
+Made a new feature of player screen turning red when the player is on low health.
